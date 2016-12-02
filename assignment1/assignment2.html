@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    .outerbox{
+        
+          width:100vw;
+          
+		  margin:auto;
+		  height:100vh;
+          border:1px solid black;
+} 
+  .innerbox1, .innerbox2, .innerbox3, .innerbox4{
+  			 position:absolute;
+			 width:25vw;
+			 height:25vh;
+			 border:0.1vmin solid black;
+   }
+   .innerbox1a, .innerbox1b, .innerbox1c, .innerbox1d, .innerbox1e{
+   				width:20%;
+				height:20%;
+				position:absolute;
+				border:0.1vmin solid black;
+
+    } 
+	.innerbox2a, .innerbox2b, .innerbox2c, .innerbox2d, .innerbox2e{
+   				width:20%;
+				height:20%;
+				border-radius:50%;
+				position:absolute;
+				border:0.1vmin solid red;
+
+    } 
+	.innerbox3a, .innerbox3b, .innerbox3d, .innerbox3e{
+   				width:30%;
+				height:20%;
+				position:absolute;
+				border:0.1vmin solid blue;
+
+    } 
+	.innerbox4a, .innerbox4b, .innerbox4d, .innerbox4e{
+   				width:20%;
+				height:20%;
+				border-radius:40%;
+				position:absolute;
+				border:0.1vmin solid purple;
+
+    } 
+	.circle{
+			width:20%;
+			height:20%;
+			border-radius:50%;
+			border:groove 0.1vmin red;
+			position:absolute;
+			top:40%;
+			left:40%;
+		}
+	</style>
+  </head>
+  <body>
+  <div class="outerbox">
+  	   <div class="innerbox1" style="left:5%; top:5%;">
+	   		<div class="innerbox1a" style="top:5%; left:5%;"></div>
+			<div class="innerbox1b" style="top:5%; right:5%;"></div>
+			<div class="innerbox1c" style="top:40%; left:40%;"></div>
+			<div class="innerbox1d" style="left:5%; bottom:5%;"></div>
+			<div class="innerbox1e" style="right:5%; bottom:5%;"></div>
+	   </div>
+	   <div class="innerbox2" style="top:5%; right:5%;">
+	   		<div class="innerbox2a" style="top:5%; left:5%;"></div>
+			<div class="innerbox2b" style="top:5%; right:5%;"></div>
+			<div class="innerbox2c" style="top:40%; left:40%;"></div>
+			<div class="innerbox2d" style="left:5%; bottom:5%;"></div>
+			<div class="innerbox2e" style="right:5%; bottom:5%;"></div>
+	   </div>
+	   <div class="circle"></div>
+	   <div class="innerbox3" style="left:5%; bottom:5%;">
+	   		<div class="innerbox3a" style="top:5%; left:5%;"></div>
+			<div class="innerbox3b" style="top:5%; right:5%;"></div>
+			<div class="innerbox3c" ></div>
+			<div class="innerbox3d" style="bottom:5%; left:5%;"></div>
+			<div class="innerbox3e" style="bottom:5%; right:5%;"></div>
+	   </div>
+	   <div class="innerbox4" style="right:5%; bottom:5%;">
+	   		<div class="innerbox4a" style="top:5%; left:5%;"></div>
+			<div class="innerbox4b" style="top:5%; right:5%;"></div>
+			<div class="innerbox4c"></div>
+			<div class="innerbox4d" style="bottom:5%; left:5%;"></div>
+			<div class="innerbox4e" style="bottom:5%; right:5%;"></div>
+	   </div>
+  
+  </div>
+
+  
+  </body>
+</html>
